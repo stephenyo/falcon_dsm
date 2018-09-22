@@ -45,7 +45,7 @@ var auth = {
     router, 
     checkAuthenticated : (req, res, next) => {
         if(!req.header('authorization'))
-            return res.Status(401).message('Unathorized.')
+            return res.Status(401).message('Unauthorized.')
 
         var token = req.header('authorization').split(' ')[1]
         var payload = jwt.decode(token, '123')
