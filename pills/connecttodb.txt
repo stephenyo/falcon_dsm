@@ -1,0 +1,6 @@
+psql \
+   --host=rxr-dev.cxy5fjhcahlr.us-east-1.rds.amazonaws.com \
+   --port=5432 \
+   --username=dev \
+   --password falcondsm69! \
+   --dbname=rxrdev 

@@ -1,0 +1,18 @@
+Server address:
+ssh -i "~/.ssh/rxreminders-dev.pem" ubuntu@ec2-54-146-130-113.compute-1.amazonaws.com
+
+Connection string (requires that you download rxreminders-dev.pem to your ~/.ssh dir):
+ssh -i "~/.ssh/rxreminders-dev.pem" ubuntu@ec2-54-146-130-113.compute-1.amazonaws.com
+
+Web dir:
+1. Switch to root user: sudo -u root -i
+2. cd /var/www/html
+
+Connect to DB from server:
+
+psql \
+    --host=rxr-dev.cxy5fjhcahlr.us-east-1.rds.amazonaws.com \
+    --port=5432 \
+    --username=dev \
+    --password falcondsm69! \
+    --dbname=rxrdev
