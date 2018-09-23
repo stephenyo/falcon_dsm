@@ -1,0 +1,4 @@
+# Download [rxreminders-dev.pem] to your ~/.ssh directory
+
+# Connection script: 
+ssh -i "~/.ssh/rxreminders-dev.pem" ubuntu@ec2-54-146-130-113.compute-1.amazonaws.com
